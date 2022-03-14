@@ -3,6 +3,7 @@ theme: jekyll-theme-midnight
 # Site
 title: 'Nikroblog'
 description: 'Nikronic's posts mostly around artifical intelligence and science.'
+baseurl: '/blog'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.png'
 email: 'nikan.doosti@outlook.com'
