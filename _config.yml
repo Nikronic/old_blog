@@ -1,8 +1,8 @@
 theme: jekyll-theme-midnight
 
 # Site
-name: 'Nikronic Blog'
-description: 'Blogs and posts around mostly around artifical intelligence and science in general.'
+title: 'Nikronic Blog'
+description: 'Blogs and posts around mostly around artifical intelligence and science.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.png'
 email: 'nikan.doosti@outlook.com'
