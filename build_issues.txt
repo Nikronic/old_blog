@@ -2,6 +2,6 @@ install 'webrick': https://github.com/jekyll/jekyll/issues/8523
 
 dont add "'" in your _config.yml file, it leads to scenario that jekyll does not recognize keywords.: see comments on question https://stackoverflow.com/questions/33066015/jekyll-config-yml-did-not-find-expected-key-while-parsing-a-block-mapping
 
-Github pages and relative paths for github projects: https://stackoverflow.com/questions/16316311/github-pages-and-relative-paths
+Github pages and relative paths for github projects: https://stackoverflow.com/questions/16316311/github-pages-and-relative-paths , https://stackoverflow.com/questions/27879849/how-do-i-get-vanilla-markdown-style-relative-links-to-work-with-vanilla-jekyll-a
 
 
