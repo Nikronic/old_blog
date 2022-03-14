@@ -1,7 +1,7 @@
 # Site
 title: 'Nikroblog'
 description: 'Posts mostly around artifical intelligence and science.'
-baseurl: '/blog'  # uncomment for 'github', comment for 'local'
+baseurl: /blog  # uncomment for 'github', comment for 'local'
 # baseurl: ''
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.png'
