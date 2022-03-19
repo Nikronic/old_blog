@@ -1,0 +1,12 @@
+---
+
+---
+
+{% for post in site.posts %}
+    <pre>
+	- title: {{ post.title }}
+	  image: {{ post.image | relative_url}}
+	  tags: {{ post.tags | array_to_sentence_string }}
+	  url: {{ post.url | relative_url}}
+	</pre>
+{% endfor %}
