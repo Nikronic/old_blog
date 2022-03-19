@@ -3,10 +3,10 @@
 ---
 
 {% for post in site.posts %}
-    <pre>
-	- title: {{ post.title }}
-	  image: {{ post.image | relative_url}}
-	  tags: {{ post.tags | array_to_sentence_string }}
-	  url: {{ post.url | relative_url}}
-	</pre>
+    
+-&nbsp;title: {{ post.title }}<br>
+&nbsp;&nbsp;image: {{ post.image | relative_url}}<br>
+&nbsp;&nbsp;tags: {{ post.tags | array_to_sentence_string }}<br>
+&nbsp;&nbsp;url: {{ post.url | relative_url}}<br>
+
 {% endfor %}
