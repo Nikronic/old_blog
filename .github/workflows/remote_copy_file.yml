@@ -33,6 +33,7 @@ jobs:
         with:
           source_file: '_site/navigation/index.html'
           destination_repo: 'Nikronic/nikronic.github.io'
+          destination_branch: 'master'
           destination_folder: '_data'
           user_email: 'nikan.doosti@outlook.com'
           user_name: 'Nikronic'
