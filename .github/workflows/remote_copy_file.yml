@@ -31,14 +31,14 @@ jobs:
         with:
           find: "(&nbsp;)"
           replace: " "
-          include: "_site/navigation/"
+          include: "_site/navigation/index.html"
           regex: true
       - name: Find and Replace html br tags
         uses: jacobtomlinson/gha-find-replace@2.0.0
         with:
           find: "<br>"
           replace: " "
-          include: "_site/navigation/"
+          include: "_site/navigation/index.html"
           regex: true
       - name: change extension from html to yml for jekyll data type
         run: mv _site/navigation/index.html _site/navigation/index.yml
