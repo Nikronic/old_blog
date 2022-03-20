@@ -8,5 +8,6 @@
 &nbsp;&nbsp;image: {{ post.image | relative_url}}<br>
 &nbsp;&nbsp;tags: {{ post.tags | array_to_sentence_string }}<br>
 &nbsp;&nbsp;url: {{ post.url | relative_url}}<br>
+&nbsp;&nbsp;date: {{ post.date | date: "%b %-d, %Y"}}<br>
 
 {% endfor %}
